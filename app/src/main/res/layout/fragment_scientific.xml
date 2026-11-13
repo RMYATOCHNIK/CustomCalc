@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:padding="12dp"
+    android:rowCount="3">
+
+    <Button style="@style/CalcButton.Function" android:text="sin" android:id="@+id/btnSin" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="cos" android:id="@+id/btnCos" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="tan" android:id="@+id/btnTan" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button style="@style/CalcButton.Function" android:text="log" android:id="@+id/btnLog" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="ln" android:id="@+id/btnLn" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="√" android:id="@+id/btnSqrt" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button style="@style/CalcButton.Function" android:text="^" android:id="@+id/btnPow" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="π" android:id="@+id/btnPi" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    <Button style="@style/CalcButton.Function" android:text="e" android:id="@+id/btnE" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+</GridLayout>

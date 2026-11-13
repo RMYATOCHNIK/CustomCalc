@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Palette -->
+    <color name="bg_main">#0F172A</color>
+    <color name="bg_surface">#1E293B</color>
+    <color name="primary_accent">#38BDF8</color>
+    <color name="secondary_accent">#818CF8</color>
+    <color name="operator_accent">#F472B6</color>
+    <color name="equal_accent">#2DD4BF</color>
+
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+
+    <!-- Button Backgrounds -->
+    <color name="btn_num_bg">#2563EB</color>
+    <color name="btn_func_bg">#475569</color>
+
+    <!-- Compatibility names used in code/other files -->
+    <color name="background">#0F172A</color>
+    <color name="surface">#1E293B</color>
+    <color name="primary">#38BDF8</color>
+    <color name="onBackground">#F8FAFC</color>
+    <color name="onSurface">#F8FAFC</color>
+
+    <color name="calc_display_bg">#0F172A</color>
+    <color name="calc_display_text">#F8FAFC</color>
+    <color name="calc_button_number">#2563EB</color>
+    <color name="calc_button_operator">#F472B6</color>
+    <color name="calc_button_function">#475569</color>
+    <color name="calc_button_equal">#2DD4BF</color>
+</resources>

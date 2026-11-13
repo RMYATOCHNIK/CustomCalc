@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Custom Calc</string>
+    <string name="tab_basic">Обычный</string>
+    <string name="tab_scientific">Научный</string>
+    <string name="tab_advanced">Доп.</string>
+    <string name="tab_column">В столбик</string>
+    <string name="tab_converter">Конвертер</string>
+    <string name="tab_history">История</string>
+    <string name="tab_settings">Настройки</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_sound_enabled">Звук кнопок</string>
+    <string name="settings_vibration_enabled">Вибрация</string>
+    <string name="settings_vibration_strength">Сила вибрации</string>
+    <string name="settings_vibration_duration">Длительность вибрации</string>
+    <string name="settings_custom_sound">Кастомный звук</string>
+    <string name="settings_layout_customization">Настройка интерфейса</string>
+    <string name="settings_display_top">Дисплей сверху</string>
+
+    <string name="settings_language">Язык приложения</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_en">English</string>
+
+    <string name="error_msg">Ошибка</string>
+    <string name="hint_first_num">Первое число</string>
+    <string name="hint_second_num">Второе число</string>
+    <string name="btn_calc_column">Вычислить в столбик</string>
+
+    <string name="converter_title">Конвертер величин</string>
+    <string name="converter_input_hint">Введите значение</string>
+    <string name="converter_from">Из</string>
+    <string name="converter_to">В</string>
+    <string name="converter_result">Результат</string>
+
+    <string name="cat_length">Длина</string>
+    <string name="cat_mass">Масса</string>
+    <string name="cat_temp">Температура</string>
+    <string name="cat_speed">Скорость</string>
+    <string name="cat_data">Данные</string>
+
+    <string name="history_title">История вычислений</string>
+    <string name="history_empty">История пуста</string>
+    <string name="history_clear">Очистить историю</string>
+
+    <string name="preset_themes">Пресеты оформления</string>
+    <string name="preset_classic">Классика</string>
+    <string name="preset_cyberpunk">Киберпанк</string>
+    <string name="preset_emerald">Изумруд</string>
+    <string name="preset_dracula">Дракула</string>
+    <string name="preset_sunset">Закат</string>
+
+    <string name="custom_rules_title">Кастомные ответы</string>
+    <string name="delete_rule">Удалить</string>
+    <string name="preview_sound">Прослушать</string>
+    <string name="select">Выбрать</string>
+    <string name="copy_result">Скопировано</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:columnCount="3"
+        android:rowCount="2">
+
+        <Button style="@style/CalcButton.Function" android:text="!" android:id="@+id/btnFact" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="abs" android:id="@+id/btnAbs" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="mod" android:id="@+id/btnMod" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+        <Button style="@style/CalcButton.Function" android:text="floor" android:id="@+id/btnFloor" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="ceil" android:id="@+id/btnCeil" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="exp" android:id="@+id/btnExp" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button style="@style/CalcButton.Function" android:text="MC" android:id="@+id/btnMC" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="MR" android:id="@+id/btnMR" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="M+" android:id="@+id/btnMPlus" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button style="@style/CalcButton.Function" android:text="M-" android:id="@+id/btnMMinus" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

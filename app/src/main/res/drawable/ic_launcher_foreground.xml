@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Effect/Background Shape -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M24,24h60v60h-60z"
+        android:alpha="0.3" />
+
+    <!-- Stylized 'C' (Primary Accent) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M35,38 c-5,0 -9,4 -9,16 s4,16 9,16 c3,0 6,-2 7,-4 l5,3 c-3,5 -7,7 -12,7 c-9,0 -16,-8 -16,-22 s7,-22 16,-22 c5,0 9,2 12,7 l-5,3 c-1,-2 -4,-4 -7,-4 z" />
+
+    <!-- Minimalist Calculator (Equal Accent & Text Primary) -->
+    <!-- Body -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M52,30 h30 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Display -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M56,36 h22 v8 h-22 z" />
+
+    <!-- Grid lines / Buttons -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M56,50 h4 v4 h-4 z M65,50 h4 v4 h-4 z M74,50 h4 v4 h-4 z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M56,58 h4 v4 h-4 z M65,58 h4 v4 h-4 z M74,58 h4 v4 h-4 z" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M56,66 h22 v4 h-22 z" />
+
+</vector>
